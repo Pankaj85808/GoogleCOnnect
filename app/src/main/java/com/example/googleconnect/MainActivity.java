@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         //first we intialized the FirebaseAuth object
         mAuth = FirebaseAuth.getInstance();
-
+        Toast.makeText(this, "hello", Toast.LENGTH_SHORT).show();
         //Then we need a GoogleSignInOptions object
         //And we need to build it as below
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
